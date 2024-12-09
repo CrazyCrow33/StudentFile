@@ -74,7 +74,7 @@ class Program
 
                 // Append new students to the database file
                 Console.WriteLine("Adding Students to Database...");
-                using (StreamWriter writer = new StreamWriter(filePath, append: true))
+                using (StreamWriter writer = new StreamWriter(filePath))
                 {
                     foreach (Student student in students)
                     {
