@@ -4,7 +4,7 @@ using System.IO;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         string filePath = "students.csv";
         List<Student> students = new List<Student>();
